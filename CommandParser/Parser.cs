@@ -9,6 +9,16 @@ namespace CommandParser
     //Contains the parsing logic
     public class Parser
     {
+        private String linija { get; set; }
+
+
+        public Parser() {
+        }
+
+        public Parser(String linija) {
+            this.linija = linija;
+        }
+
 
     }
 }
